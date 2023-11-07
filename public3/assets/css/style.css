@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+    background-color: #191c32;
+}
+
+/*ENCABEZADO*/
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;/*Color de la pagina*/
+    color: #fff;/*Color de letra*/
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+
+.brand{
+    margin-top: -10px;
+}
+
+.brand span{
+    color: aqua;
+}
+
+.menu{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu .active{
+    color: aqua;
+}
+
+.menu a:hover{
+    background-color: aqua;
+    color: #191c32;
+    transition: ease-in .6s;
+}
+
+.foto1{
+    width: 350px;
+    height: 350px;
+    border-radius: 250px;
+    color: aqua;
+    /*box-shadow: 5px 5px 10px;*/
+    border: 7px solid aqua;
+}
+
+/*ACERACA DE MI*/
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+
+span{
+    color: aqua;
+}
+
+.dowland-cv {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(102, 231, 200, .69);
+}
+
+.dowland-cv:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img{
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info{
+    grid-column: 5/10;
+    padding: 2em;
+}
+
+.about-info h2{
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.about p{
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+/*PORTAFOLIO*/
+.portfolio,
+.contact-section{/* contacto*/
+    width: 100vw;
+    background-color: #191c32;
+    color: #fff;
+
+}
+
+.portfolio-headings{
+    width: 100vw;
+    padding: 5em;
+}
+
+.portfolio-headings h2{
+    font-size: 2.5em;
+}
+
+.portfolio .container{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    color: #fff;
+    height: 420px;
+    background-color: cadetblue;
+    margin: 1em;
+}
+
+.card_img{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/waP2mXn.png);
+    background-size: cover;
+}
+
+.card_img1{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/zGg2oba.png);
+    background-size: cover;
+}
+
+.card_img2{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/5mxIxAV.jpg);
+    background-size: cover;
+}
+
+.card_img3{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/qHYKaIk.jpg);
+    background-size: cover;
+}
+
+.card_img4{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/HIX1A5e.jpg);
+    background-size: cover;
+}
+
+.card_img5{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/Ac227Qe.jpg);
+    background-size: cover;
+}
+
+.card_img6{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/dvwipGX.png);
+    background-size: cover;
+}
+
+.card_img7{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/Tr4VsSW.jpg);
+    background-size: cover;
+}
+
+.card_img8{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.imgur.com/0wgIr8X.jpg);
+    background-size: cover;
+}
+
+.card_title{
+    padding: 20px;
+}
+
+.card_project-links{
+    color: #fff;
+    text-decoration: none;
+}
+
+.card_project-links i{
+    font-size: 1.5em;
+}
+
+.button-content{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.project-details-button a{
+    text-decoration: none;
+    color: #191c32;
+}
+
+.card .project-details{
+    margin: 0 auto;
+    margin: 1em;
+    width: 70%;
+}
+
+.card.project-details a{
+    text-decoration: none;
+    color: #191c32;
+    text-transform: uppercase;
+}
+
+.proyect-details-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+/*CONTACTO*/
+
+.container-contact{
+    width: 100vw;
+    background-color: #191c32;
+    color: #fff;
+
+}
+.contact-headings h2{
+    font-size: 3em;
+}
+
+.container-contact{
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.container-contact img{
+    width: 300px;
+    height: 150px;
+    bottom: 0px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color:#fff;
+    padding: 1.5em;
+    border-bottom: 1px solid #fff;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(102, 231, 200, .69);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+}
+
+.footer-content h2{
+    font-size: 3em;
+}
+
+.footer-content h5,
+.sotial-network i{
+    font-size: 1.5em;
+}
+
+.sotial-network{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+/*--------no hace nada-------*/
+.card1{
+    width: 300px;
+    color: #fff;
+    height: 420px;
+    background-color: cadetblue;
+    margin: 1em;
+}
+
+.card_title1{
+    padding: 20px;
+}
+
+.proyect-details-content1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+.card1 .project-details1{
+    margin: 0 auto;
+    margin: 1em;
+    width: 70%;
+}
+
+.card1 .project-details1 a{
+    text-decoration: none;
+    color: #191c32;
+    text-transform: uppercase;
+}
+
+.dowland-cv1 {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(102, 231, 200, .69);
+}
+
+
+/*-------------------------- GRAFICAS ------------------*/
+.containergraficas
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.containergraficas .progress
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #fff;
+    background: #444 linear-gradient(to right, transparent 50%, var(--clr) 0);
+}
+
+.containergraficas .progress h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.containergraficas .progress h3 span{
+    font-size: 0.65em;
+    font-weight: 400;
+}
+
+.containergraficas .progress h4 {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    font-weight: 500;
+    color: var(--clr);
+    text-transform: uppercase;
+}
+
+.containergraficas .progress::before{
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+
+.containergraficas .progress::after{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #191c32;
+}
+
+.containergraficas .progress::before{
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+}
+
+.containergraficas .progress.less::before{
+    background: #444;
+    transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
+}
+
+/*---------*/
+.typing_effect{
+    animation: teclear 3s steps(16), efecto .5s step-end infinite alternate;
+}
+
+@keyframes teclear {
+    from {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes efecto {
+    50% {
+        border-color: transparent;
+    }
+}
